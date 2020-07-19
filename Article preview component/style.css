@@ -1,0 +1,89 @@
+:root {
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  background-color: var(--Light-Grayish-Blue);
+  padding: 3em 1em;
+  height: 100vh;
+  font-weight: 500;
+  color: var(--Desaturated-Dark-Blue);
+}
+
+.component-container {
+  height: 90%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.image-container {
+  background-image: url("./images/drawers.jpg");
+  height: 40%;
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-content {
+  padding: 2em 2em;
+  line-height: 1.5;
+}
+
+.text-content h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+.text-content p {
+  justify-content: left;
+}
+
+.author-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-container .profile {
+  display: flex;
+}
+
+.author-container .avatar {
+  border-radius: 50%;
+  height: 3.5em;
+  margin-right: 1.4em;
+}
+.author-container .share-container {
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 50%;
+  width: fit-content;
+  padding: 0.5em 0.5em;
+}
+.author-container .author-text span {
+  color: var(--Very-Dark-Grayish-Blue);
+  font-weight: 700;
+}
+.author-container .author-text {
+  display: flex;
+  flex-direction: column;
+}
