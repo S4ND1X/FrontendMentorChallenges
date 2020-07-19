@@ -9,3 +9,8 @@
 Once you select a challenge, they provide you with the style guide of the webpage, mobile design, fonts, etc.
 So the challenge is to move that design into code. Almost all challenges require HTML, CSS and JS. 
 You are allowed to use framework but in my case I'm doing everything with vanilla because I dont like frameworks and doing everything in vanilla really helps you to sharpen those foundations skills.
+
+
+##   How difficult are they?
+All challenges are clasified between newbie and senior, so I'll start from the bottom and try to get to the harder
+ones
