@@ -13,7 +13,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+/* General Styles */
 body {
   font-family: "Manrope", sans-serif;
   font-size: 13px;
@@ -22,4 +22,35 @@ body {
   height: 100vh;
   font-weight: 500;
   color: var(--Desaturated-Dark-Blue);
+}
+
+h1 {
+  color: var(--Very-Dark-Grayish-Blue);
+  font-weight: 700;
+}
+p {
+  font-weight: 500;
+}
+
+/* Card */
+
+.container{
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+
+.card-container{
+  border: 1px double yellow;
+  height: 100%;
+}
+
+/* Header image */
+.header-image{
+  background-image: url('./images/drawers.jpg');
+  height: 33.33%;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
